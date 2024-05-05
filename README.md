@@ -1,15 +1,22 @@
 # Census_income_prediction
-Overview
+
+##Overview
 This project aims to predict the income level of individuals based on demographic and socioeconomic factors such as age, education, occupation, and more. We will use machine learning models to analyze census data and predict whether an individual earns more than $50,000 annually.
 
-Dataset
+##Dataset
 The dataset used in this project includes demographic information from the US Census Bureau. It contains features such as age, workclass, education, marital status, occupation, race, gender, capital gain, capital loss, hours per week, native country, and income level.
 
-Approach
+##Approach
 Data Preprocessing: Clean and preprocess the dataset, handle missing values, encode categorical variables, and scale numerical features.
-Model Training: Train machine learning models, including Decision Tree and Random Forest classifiers, on the preprocessed data.
-Model Evaluation: Evaluate the performance of trained models using metrics such as accuracy, precision, recall, and F1-score.
-Deployment: Deploy the best-performing model as a web application for real-time income prediction.
+
+##Model Training:
+Train machine learning models, including Decision Tree and Random Forest classifiers, on the preprocessed data.
+
+##Model Evaluation:
+Evaluate the performance of trained models using metrics such as accuracy, precision, recall, and F1-score.
+
+##Deployment:
+Deploy the best-performing model as a web application for real-time income prediction.
 Technologies Used
 Python
 Pandas
@@ -17,12 +24,14 @@ NumPy
 Scikit-learn
 Jupyter Notebook
 GitHub
-Files Included
+
+##Files Included
 census_income_prediction.ipynb: Jupyter Notebook containing the project code and analysis.
 adult.csv: Dataset containing demographic information and income levels.
 popdata.csv: Dataset containing population data.
 README.md: This file providing an overview of the project.
-Usage
+
+##Usage
 To run the project locally, follow these steps:
 
 Clone the repository to your local machine.
